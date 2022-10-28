@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.Form {
+  display: flex;
+  justify-content: center;
+  gap: 0.25em;
+}
+
+.ql-editor, .ql-container {
+  overflow: visible;
+}
+
+.ql-cursor .ql-cursor-flag {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 999em;
+  padding: 2px;
+  margin-left: -13px;
+}
+
+.ql-cursor .ql-cursor-flag img {
+  border-radius: 50%;
+}
+
+.ql-cursor .ql-cursor-flag .ql-cursor-name {
+  line-height: 1;
+  padding-block: 4px;
+  display: none;
+}
+
+.ql-cursor .ql-cursor-caret-container .ql-cursor-caret {
+  width: 2px;
+  border-radius: 999em;
+}
